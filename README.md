@@ -1,7 +1,9 @@
 # Dog-Breed-Classifier
 A computer vision model used to classify images for a Dog competition. 
  
-![Great Pyrenees](./pet_images/Great_pyrenees_05367.jpg)
+<p align="center">
+  <img src="./pet_images/Great_pyrenees_05367.jpg">
+</p>
 
 ## Table of Contents
 
