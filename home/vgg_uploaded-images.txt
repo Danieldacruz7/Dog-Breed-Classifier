@@ -1,0 +1,71 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:            Animal_Name_01.jpeg  label:                animal name
+ 2 key:            Object_Name_01.jpeg  label:                object name
+ 3 key:                    Dog_02.jpeg  label:                        dog
+ 4 key:                    Dog_01.jpeg  label:                        dog
+
+     MATCH:
+
+ NOT A MATCH:
+
+           Animal_Name_01.jpeg: 
+Real:                animal name   Classifier:     goldfish,carassius auratus
+
+           Object_Name_01.jpeg: 
+Real:                object name   Classifier:           sports car,sport car
+
+                   Dog_02.jpeg: 
+Real:                        dog   Classifier:               golden retriever
+
+                   Dog_01.jpeg: 
+Real:                        dog   Classifier: cocker spaniel,english cocker spaniel,cocker
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+           Animal_Name_01.jpeg: 
+Real:                animal name   Classifier:     goldfish,carassius auratus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+           Object_Name_01.jpeg: 
+Real:                object name   Classifier:           sports car,sport car  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   Dog_02.jpeg: 
+Real:                        dog   Classifier:               golden retriever  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                   Dog_01.jpeg: 
+Real:                        dog   Classifier: cocker spaniel,english cocker spaniel,cocker  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+-----------------------------------------------------------------------
+Image Classification of Dog Images Using A Pretrained Classifier Model.
+-----------------------------------------------------------------------
+Results Summary:
+
+Pretrained model: vgg
+Percentage of correct dog classifications: 100.00
+Percentage of correct dog breed classifications: 0.00
+Percentage of correct non-dog classifications: 100.00
+Percentage of labels matching: 0.00
+
+** Total Elapsed Runtime: 0:0:6
